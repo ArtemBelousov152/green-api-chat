@@ -1,0 +1,11 @@
+.form {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    color: var(--main-white);
+    background-color: var(--main-bg-color);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 0 10px var(--main-shadow-color), -2px 0 10px var(--main-shadow-color);
+
+}

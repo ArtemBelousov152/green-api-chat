@@ -1,0 +1,37 @@
+.chatMessagesWrapper {
+    overflow-y: auto;
+    display: flex;
+}
+
+.chatMessages {
+    flex-grow: 1;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 20px;
+    background-image: linear-gradient(var(--main-gradient-color), var(--main-gradient-color)),
+                  url('./assets/chagBg.png');
+}
+.message {
+    color: var(--main-white);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.sendByMe {
+    display: flex;
+    justify-content: end;
+    div {
+        display: inline-block;
+        background-color: var(--main-green-color);
+    }
+}
+
+.sendNotByMe {
+    justify-self: left;
+    div {
+        display: inline-block;
+        background-color: var(--main-gray-color);
+    }
+}

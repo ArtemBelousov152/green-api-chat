@@ -1,0 +1,12 @@
+
+.sendBlock {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    background-color: var(--main-bg-color);
+    .inputWrapper {
+        height: 70%;
+        width: 95%;
+        justify-self: center;
+        align-self: center;
+    }
+}

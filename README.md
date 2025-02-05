@@ -1,4 +1,4 @@
-https://green-api-chat-ovtv7nzxv-artembelousov152s-projects.vercel.app/ - рабочая версия.
+https://green-api-chat-zeta.vercel.app/ - рабочая версия.
 
 Что умеет:
 
